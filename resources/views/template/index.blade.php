@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>{{$h2}}</h2>
+    @yield('content')
+    
 
-    <h3>Resultat de {{$var}}*3 est {{$var*3}}</h3>
 </body>
 </html>

@@ -18,11 +18,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/Elvis',function(){
     $h2 = 'Elvis';
-    return view('welcome',compact('h2'));
+    return view('pages.Exo1',compact('h2'));
 });
 
 
-Route::get('/{var}',function(){
+Route::get('/{var}',function($var){
 
-    return view('welcome');
+    return view('pages.welcome',compact('var'));
 });

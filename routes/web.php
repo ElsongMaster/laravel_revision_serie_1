@@ -22,7 +22,15 @@ Route::get('/Elvis',function(){
 });
 
 
-Route::get('/{var}',function($var){
+Route::get('/Exo2/{var}',function($var){
 
     return view('pages.welcome',compact('var'));
+});
+
+
+Route::get('/Exo3', function(){
+    $var2 = 'a';
+    $var3 = 'e';
+    return view('pages.Exo3', compact('var2','var3'));
+
 });

@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+
+Route::get('/Elvis',function(){
+    $h2 = 'Elvis';
+    return view('welcome',compact('h2'));
 });

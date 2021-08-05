@@ -20,3 +20,9 @@ Route::get('/Elvis',function(){
     $h2 = 'Elvis';
     return view('welcome',compact('h2'));
 });
+
+
+Route::get('/{var}',function(){
+
+    return view('welcome');
+});

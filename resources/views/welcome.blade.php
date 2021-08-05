@@ -7,9 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>{{$h1}}</h2>
+    <h2>{{$h2}}</h2>
 
-
-    h
+    <h3>Resultat de {{$var}}*3 est {{$var*3}}</h3>
 </body>
 </html>
